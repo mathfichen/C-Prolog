@@ -27,7 +27,7 @@ jobs:
         run: |
           python3 scripts/update_metadata.py
 
-      - name: Dry-run: build flattened trees
+      - name: "Dry-run: build flattened trees"
         run: |
           python3 scripts/build_source_tree.py --clean
 
