@@ -1,8 +1,8 @@
 # Canonical manifest — the order of this list is the commit order on SourceCode
 releases:
   - id: "c-prolog-1982"
-    title: "C-Prolog"
-    date: "1982-07"
+    title: "C-Prolog 1.5"
+    date: "1984-02-20"
     author: "Fernando Pereira"
     message: "By Fernando Pereira, EdCAAD, Dept. of Architecture, University of Edinburgh.Based on the Prolog system written in IMP by Luis Damas for ICL 2900 computers, with some contributions by Lawrence Byrd." 
     sources:
