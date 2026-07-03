@@ -38,6 +38,9 @@ jobs:
           python3 scripts/build_source_tree.py --clean
           python3 scripts/update_metadata.py
 
+      - name: Checkout main before PR creation
+        run: git checkout main
+
       - name: Open or update curation PR to main
         uses: peter-evans/create-pull-request@v6
         with:
