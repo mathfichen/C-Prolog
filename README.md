@@ -1,5 +1,9 @@
 # C-Prolog
 
+[![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/mathfichen/C-Prolog/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/mathfichen/C-Prolog)
+
+[![SWH](https://archive.softwareheritage.org/badge/swh:1:dir:5a74739fa559db09e9a95cb4b25dd4beec2e7328/)](https://archive.softwareheritage.org/swh:1:dir:5a74739fa559db09e9a95cb4b25dd4beec2e7328;origin=https://github.com/mathfichen/C-Prolog;visit=swh:1:snp:96395c1551cabc929796e449845c37ac267f7453;anchor=swh:1:rev:178123d66587e23f3de8f4b0f0570a73904087ef)
+
 This repository contains the archived source code of C-Prolog, developped by Fernando Pereira as of 1982 at EdCAAD, Dept. of Architecture, University of Edinburgh, for a VAX computer.
 C-Prolog is based on the Prolog system written in IMP by Luis Damas for ICL 2900 computers, with some contributions by Lawrence Byrd. *
 
