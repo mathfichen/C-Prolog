@@ -1,44 +1,21 @@
-## SWHAPPE catalogue.md Template
 
-Here we propose a template for catalogue<span>.md for SWHAPPE.
-
-Each Item in the `raw_materials` and `additional_materials` folders of Workbench should have a corresponding record on the `catalogue.md` with the structure below..
-
-Please note that:
-* Name and Surname of actors should be linked to their paragraph in [actors.md](./actors.md) file;
-* Items should be linked to the file [inside the raw materials repository](./raw_matherials/) or [inside the additional materials repository](./additional_matherials/);
-* On the [second part of the Catalogue](./catalogue.md#SW_NAME-Catalogue-Tree) should be copied the result of the command `tree -a raw_materials additional_materials ` ;
-* *Notes:* are optional; they should contains `Additional materials.` for additional materials
-* *Warehouse:* is optional - should be used only when a physical warehouse is used to store material taken from the *origin*; .
-
-Example of Actor link:
-~~~
-[Name Surname](./actors.md#name-surname)
-~~~
-Example of Item links:
-~~~
-[Item Name](./raw_materials/example_file.zip)
-[Additional Materials Item Name](./additional_materials/example.ppt)
-~~~
+# C-Prolog Catalogue
 
 
-# SW_NAME Catalogue
-
-
-* **[Item Name](./raw_materials/example_file.zip)**
-  * *Origin:* 
-  * *Warehouse:* 
-  * *Authors:* [Name Surname](./actors.md#name-surname)
-  * *Date:* 1970/01/25 (circa) 
-  * *Collectors:* [Name Surname](./actors.md#name-surname)
-  * *Description:* 
+* **[C-prolog 1.5](./raw_materials/c-prolog-1.5/c-prolog.tar.gz)**
+  * *Origin:* Recovered here https://github.com/GunterMueller/C-Prolog and indexed by the Software Preservation Group https://softwarepreservation.computerhistory.org/prolog/
+  * *Authors:* Fernando Pereira, EdCAAD, Dept. of Architecture, University of Edinburgh
+  * *Date:* 1982/07
+  * *Collectors:* Mathilde Fichen, Software Heritage
+  * *Description:* Implementation of Prolog made by Fernando Pereira while employed by the Edinburgh Computer Aided Architecture Design group, Department of Architecture of Edinburgh, made for a VAX computer. The implementation is based on the Prolog system written in IMP by Luis Damas (Department of Artificial Intelligence, University of Edinburgh) for ICL 2900 computers, with some contributions by Lawrence Byrd (Department of Artificial Intelligence, University of Edinburgh). Fernando had previously started a PhD at the Department of Artificial Intelligence of Edinburgh, under the supervision of David Warren, and had contributed to the first PROLOG compiler for DEC-10. 
   * *Notes:* 
   
-* **[Additional Material Item Name](./additional_materials/example.ppt)**
-  * *Origin:* 
-  * *Authors:* [Name Surname](./actors.md#name-surname)
-  * *Date:* 1979/05/20 
-  * *Collectors:* [Name Surname](./actors.md#name-surname)
+* **[C-Prolog User's Manual Version 1.2a](./raw_materials/1983_CProlog_UserManual.pdf
+)**
+  * *Origin:* the Software Preservation Group https://softwarepreservation.computerhistory.org/prolog/
+  * *Authors:* Fernando Pereira
+  * *Date:* 1983
+  * *Collectors:* Mathilde Fichen, Software Heritage
   * *Description:* 
   * *Notes:* Additional materials;
 
