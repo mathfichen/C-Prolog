@@ -26,5 +26,4 @@ jobs:
 
       - name: Rebuild synthetic history on SourceCode
         run: |
-          python3 scripts/make_synthetic_history.py --force
           python3 scripts/make_synthetic_history.py --force --srcroot /tmp/source_code
