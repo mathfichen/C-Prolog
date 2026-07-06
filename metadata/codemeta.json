@@ -1,52 +1,54 @@
 {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
-    "identifier": "a unique identifier",
-    "description": "a brief description of the software",
-    "applicationCategory" : "Type of software application, e.g. 'Game, Multimedia'",
-    "name": "software name",
-    "codeRepository":  "URL to related resources",
-    "license": "info about the license",
-    "version": "X.X",
-    "keywords" : [
-        "tag for the software", 
-        "other tag"
+    "identifier": "c-prolog-1.5",
+    "description": "C Prolog is a Prolog interpreter written in C, based on the Prolog system written in IMP by Luis Damas for ICL 2900 computers. It implements standard Edinburgh Prolog with floating point arithmetic, a debugger, and various evaluable predicates.",
+    "applicationCategory": "Programming Language Interpreter",
+    "name": "C Prolog",
+    "codeRepository": "https://github.com/mathfichen/C-Prolog-Workbench",
+    "license": "Copyright (C) 1982 Fernando Pereira, Luis Damas and Lawrence Byrd",
+    "version": "1.5",
+    "keywords": [
+        "Prolog",
+        "logic programming",
+        "interpreter",
+        "Edinburgh Prolog",
+        "C"
     ],
-    "releaseNotes" : "release notes and comments",
-    "funding" : "software funded by...(e.g. specific grant)",
-    "runtimePlatform" : "operating system",
-    "softwareRequirements" : ["dependencies and other requirements"],
-    "developmentStatus" : "from https://www.repostatus.org/ e.g. Unsupported", 
-    "dateCreated" : "YYYY-MM-DD",
-    "datePublished" : "YYYY-MM-DD",
-    "relatedLink" : ["https://..", "http://.."],
-    "programmingLanguage" : "main programming language",
-     "isPartOf" : "maybe the software is part of some project",
-    "referencePublication" : [ 
-      {
-          "@type": "ScholarlyArticle",
-          "idendifier": "https://doi.org/xx.xxxx/xxxx.xxxx.xxxx",
-          "name": "title of publication"
-      }
-      ],
+    "releaseNotes": "Version 1.5 (20 Feb 1984): Extended manual, many bug fixes and improvements. The debugger has been almost entirely rewritten and now has the 'retry' command. Command line switches for working area sizes changed to lower-case. Checked under VMS, Eunice, and Berkeley Unix on VAXes and Suns. Identifiers changed to avoid name clashes with Version 7 or System III C compilers.",
+    "funding": null,
+    "runtimePlatform": "VMS, Eunice, Berkeley Unix (VAX, Sun workstation)",
+    "softwareRequirements": ["C compiler (Berkeley 4.1 or compatible)", "make"],
+    "developmentStatus": "Unsupported",
+    "dateCreated": "1982-07-01",
+    "datePublished": "1984-02-20",
+    "relatedLink": [],
+    "programmingLanguage": "C",
+    "isPartOf": null,
+    "referencePublication": [],
     "author": [
-      {
-        "@type": "Person",
-        "givenName": "Given",
-        "familyName": "Family",
-        "affiliation" : "affiliation at the time of development",
-        "email": "given.family@org.com"
-      }
+        {
+            "@type": "Person",
+            "givenName": "Fernando",
+            "familyName": "Pereira",
+            "affiliation": "EdCAAD, Dept. of Architecture, University of Edinburgh",
+            "email": null
+        }
     ],
     "contributor": [
-    {
-        "@type": "Person",
-        "givenName": "Given",
-        "familyName": "Family",
-        "affiliation" : "affiliation at the time of development",
-        "email": "given.family@org.com"
-    }
+        {
+            "@type": "Person",
+            "givenName": "Luis",
+            "familyName": "Damas",
+            "affiliation": null,
+            "email": null
+        },
+        {
+            "@type": "Person",
+            "givenName": "Lawrence",
+            "familyName": "Byrd",
+            "affiliation": null,
+            "email": null
+        }
     ]
 }
-
-
